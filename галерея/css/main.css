@@ -1,0 +1,39 @@
+* {
+	padding: 0;
+	margin: 0;
+	/*правило вычесления размеров элемента: по границе элемента*/
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+body {
+	border:  red;
+}
+main {
+	background-color: yellow;
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	display: flex;
+	/*переносы(если не вмещаются)*/
+	flex-wrap: wrap;
+	/*первые два числа-смещение по x и y, 3-е число размытие
+	/*толщина тени и её цвет*/
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0,3);
+
+}
+.item {
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+
+}
+.img-link {
+	display: block;
+	max-height: 500px;
+	max-width: 490px;
+	width: calc(95vh/2-10px);
+	height: calc(90vw/16*9);
+	margin: 5px;
+}
