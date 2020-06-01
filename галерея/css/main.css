@@ -22,7 +22,7 @@ main {
 	box-shadow: 0 0 10px 1px rgba(0,0,0,0,3);
 
 }
-.item {
+.icon {
 	height: 100%;
 	width: 100%;
 	background-position: center;
@@ -33,7 +33,7 @@ main {
 	display: block;
 	max-height: 500px;
 	max-width: 490px;
-	width: calc(95vh/2-10px);
-	height: calc(90vw/16*9);
+	width: calc(95vh / 2 - 10px);
+	height: calc(90vw / 16 * 9);
 	margin: 5px;
 }
