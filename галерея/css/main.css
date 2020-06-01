@@ -26,10 +26,10 @@ main {
 	height: 100%;
 	width: 100%;
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
 
 }
-.img-link {
+.img_link {
 	display: block;
 	max-height: 500px;
 	max-width: 490px;
