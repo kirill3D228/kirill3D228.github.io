@@ -49,4 +49,7 @@ main {
 	filter: invert(1.5);
 	filter: saturate(5);
 	filter: sepia(1.5);
+	filter: transform scale(1.2);
+	filter: rotate(-15deg);
+	filter: translate(-200px, -100px);
 }
