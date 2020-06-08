@@ -44,4 +44,9 @@ main {
 	filter:brightness(1.5);
 	filter: contrast(1.4);
 	filter: drop-shadow(60px 30px 2px #7852);
+	filter: grayscale(1.5);
+	filter: grayscale(1.5);
+	filter: invert(1.5);
+	filter: saturate(5);
+	filter: sepia(1.5);
 }
