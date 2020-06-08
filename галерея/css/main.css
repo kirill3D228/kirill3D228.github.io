@@ -37,3 +37,11 @@ main {
 	height: calc(90vw / 16 * 9);
 	margin: 5px;
 }
+.img-link:hover{
+	filter-transition: 1.5s;
+	filter: blur(2px);
+	filter:brightness(150%);
+	filter:brightness(1.5);
+	filter: contrast(1.4);
+	filter: drop-shadow(60px 30px 2px #7852);
+}
